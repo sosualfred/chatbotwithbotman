@@ -9,6 +9,8 @@ This is a chatbot built using Botman Studio
 
 This project is currently live at [https://sosubot.herokuapp.com/](https://sosubot.herokuapp.com/).
 
+Temporary ngrok url: http://556b5ad44e91.ngrok.io/
+
 
 
 ## Documentation
