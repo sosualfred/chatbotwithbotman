@@ -7,7 +7,7 @@ This is a chatbot built using Botman Studio
 
 ## Live URL
 
-This project is currently live at [http://botman.io](http://botman.io).
+This project is currently live at [https://sosubot.herokuapp.com/](https://sosubot.herokuapp.com/).
 
 ## Documentation
 
