@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>BotMan Studio</title>
 
@@ -69,6 +70,13 @@
         aboutLink: 'https://app.slack.com/client/T0148TPPJRW/G0158KH762K/user_profile/U014K94BBK5',
         aboutText: 'Created by Sosu Alfred',
     };
+    </script>
+    <script>
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
     </script>
 <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
 </body>
