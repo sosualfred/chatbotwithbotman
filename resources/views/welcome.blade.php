@@ -63,7 +63,6 @@
 
 <script>
     var botmanWidget = {
-        frameEndpoint: '/botman/chat',
         title: 'Fun Bot',
         introMessage: 'Hello, I am Fun Bot. To begin, say "Hi"',
         bubbleAvatarUrl: 'https://cdn.dribbble.com/users/37530/screenshots/2937858/drib_blink_bot.gif',
