@@ -20,5 +20,6 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         'botman',
+        'https://sosubot.herokuapp.com/botman'
     ];
 }
